@@ -1,0 +1,10 @@
+
+.debug header{
+    height: 40px;
+    background-color: orange;
+}
+
+
+.debug #jumbotron{
+    height: 400px;
+}
