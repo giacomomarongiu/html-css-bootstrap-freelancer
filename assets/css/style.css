@@ -25,3 +25,8 @@ header{
 #about_us{
     background-color: var(--free-primary);
 }
+
+#contact_me .my_color{
+    background-color: #1ABC9C;
+    color: white;
+}
