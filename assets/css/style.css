@@ -1,0 +1,10 @@
+:root{
+    --free-darkest: #2C3E50;
+    --free-primary: #1ABC9C;
+    --free-dark: #3A546D;
+}
+
+header{
+    background-color: var(--free-darkest);
+}
+
