@@ -21,3 +21,7 @@ header{
 #jumbotron{
     background-color: var(--free-primary);
 }
+
+#about_us{
+    background-color: var(--free-primary);
+}
