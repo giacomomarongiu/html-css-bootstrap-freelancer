@@ -1,43 +1,21 @@
+/*Colours*/
 :root{
     --free-darkest: #2C3E50;
     --free-primary: #1ABC9C;
     --free-dark: #3A546D;
 }
 
-.horizonal_rule{
-    width: 70px;
-    height: 3px;
-    background-color: white;
-}
-
-
-
+/*Big things*/
 header{
     background-color: var(--free-darkest);
 }
 
 
-#jumbotron{
-    background-color: var(--free-primary);
-}
-
-#jumbotron .my_w{
-    max-width: 250px;
-}
-
-
-
-#about_us{
-    background-color: var(--free-primary);
-}
-
-#contact_me .my_color{
-    background-color: #1ABC9C;
-    color: white;
-}
-
-#foot_up{
-    background-color: var(--free-dark);
+/*My Utilities*/
+.horizonal_rule{
+    width: 70px;
+    height: 3px;
+    background-color: white;
 }
 
 .fa-brands{
@@ -49,7 +27,36 @@ header{
     line-height: 2;
 }
 
+/*jumbo*/
+#jumbotron{
+    background-color: var(--free-primary);
+}
 
+#jumbotron .my_w{
+    max-width: 250px;
+}
+
+
+/*about_us*/
+#about_us{
+    background-color: var(--free-primary);
+}
+
+/*contact me*/
+#contact_me .my_color{
+    background-color: #1ABC9C;
+    color: white;
+}
+
+
+/*foot up bg*/
+#foot_up{
+    background-color: var(--free-dark);
+}
+
+
+
+/*Used for change width of my rule and font-sizes*/
 @media screen and (min-width:769px) {
     .horizonal_rule_md{
         width: 100px;
@@ -57,12 +64,16 @@ header{
         background-color: white;
     }
 
-    #jumbotron .my_size_h{
-        font-size:50px;
-        font-stretch: 100%;
+    #jumbotron .my_size_h1{
+        font-size:60px;
     }
+
     #jumbotron .my_size_b{
         font-size:large;
-        font-stretch: 100%;
+
+    }
+
+    .my_size_h2{
+        font-size:54px;
     }
 }
