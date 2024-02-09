@@ -30,3 +30,16 @@ header{
     background-color: #1ABC9C;
     color: white;
 }
+
+#foot_up{
+    background-color: var(--free-dark);
+}
+
+.fa-brands{
+    padding-top: 10px;
+    width: 40px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 50%;
+    line-height: 2;
+}
