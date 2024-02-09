@@ -5,11 +5,10 @@
 }
 
 .horizonal_rule{
-    width: 80px;
+    width: 70px;
     height: 3px;
     background-color: white;
 }
-
 
 
 
@@ -20,6 +19,10 @@ header{
 
 #jumbotron{
     background-color: var(--free-primary);
+}
+
+#jumbotron .my_w{
+    max-width: 450px;
 }
 
 #about_us{
@@ -42,4 +45,13 @@ header{
     border: 2px solid white;
     border-radius: 50%;
     line-height: 2;
+}
+
+
+@media screen and (min-width:769px) {
+    .horizonal_rule_md{
+        width: 100px;
+        height: 3px;
+        background-color: white;
+    }
 }
